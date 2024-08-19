@@ -56,8 +56,8 @@ export default function PageCV({
             >
               {selectedImage && (
                 <img
-                  alt="not found"
-                  className=" rounded-full w-20 h-20 "
+                  alt=""
+                  className="rounded-full w-20 h-20"
                   src={URL.createObjectURL(selectedImage)}
                 />
               )}

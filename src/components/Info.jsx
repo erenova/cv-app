@@ -50,31 +50,37 @@ export function Info({
           <>
             <InputBox
               eventFunc={setGeneralFuncs.setFirstName}
+              id="first-name"
               label="First Name"
             />
 
             <InputBox
               eventFunc={setGeneralFuncs.setLastName}
+              id="last-name"
               label="Last Name"
             />
             <InputBox
               eventFunc={setGeneralFuncs.setCurrentPosition}
+              id="current-position"
               label="Current Position"
             />
             <InputBox
               eventFunc={setGeneralFuncs.setUserMail}
+              id="user-mail"
               label="Mail"
               type="email"
               required
             />
             <InputBox
               eventFunc={setGeneralFuncs.setUserPhone}
+              id="user-phone"
               label="Phone"
               type="tel"
               maxDigit="20"
             />
             <InputBox
               eventFunc={setGeneralFuncs.setUserLocation}
+              id="user-location"
               label="Location"
             />
           </>
